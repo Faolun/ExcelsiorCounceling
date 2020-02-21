@@ -1,42 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- Materialize Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!--Icons-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>About Us</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Excelsior Counseling - About Us</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
-<body>
-     <!--Navbar-->
-     <nav>
-            <div class="nav-wrapper light-blue darken-4">
-              <a href="#!" class="brand-logo">Excelsior Counceling</a>
-              <a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                    <li class="active"><a href="about.html">About Us</a></li>
-                    <li><a href="benefits.html">Benefits of Trauma Focused Therapy</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-              </ul>
-            </div>
 
-        
-          <ul class="sidenav" id="mobile-sidenav">
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="benefits.html">Benefits of Trauma Focused Therapy</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
+<body>
+    <!-- Navbar -->
+    <nav class="white">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo blue-text">Excelsior Counseling</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i
+                        class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <a class="waves-effect waves-light btn">Schedule Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+            <a href="#" class="waves-effect waves-light btn">Schedule Appointment</a>
+        </li>
+    </ul>
+    <!-- End Nav -->
+
+    <div class="parallax-container buildingImg">
+        <div class="parallax"><img src="http://placeimg.com/800/580/arch" /></div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col l4 offset-l1 s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://placeimg.com/200/200/people" />
+                        <span class="card-title">Chris Langford MA, LPC Co-Owner</span>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Chris has been working with children and families in the mental
+                            health field since 2007 and has been working as a trauma
+                            informed clinician since 2015. In his time treating individuals
+                            who are struggling with difficult memories and experiences he
+                            has helped adults, adolescents and children from all walks of
+                            life and representing every ethnic and religious background and
+                            every gender and orientation. Chris is an EMDR trained
+                            clinician.
+                        </p>
+                    </div>
+                    <!-- <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col l4 offset-l1 s12">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="http://placeimg.com/200/200/people" />
+                        <span class="card-title">Jaime Langford MSW, LCSW Co-Owner</span>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Jaime has been working in the field since 2007 and has
+                            experiences treating children and families struggling with a
+                            multitude of difficulties. She has experience helping
+                            adolescents and young adults struggling with depression,
+                            anxiety, obsessive compulsive disorder, life transitions, and
+                            difficult relationships. Jaime also has experience helping
+                            children, adolescents, and families to cope with symptoms of
+                            Autism Spectrum Disorder. Jaime is trained in Cognitive
+                            Behavior Therapy.
+                        </p>
+                    </div>
+                    <!-- <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

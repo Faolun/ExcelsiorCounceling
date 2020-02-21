@@ -1,0 +1,31 @@
+html {
+    overflow-y: scroll;
+}
+
+nav ul li a {
+  color: black;
+}
+
+/* class */
+.buildingImg {
+  height: 300px;
+}
+
+.card .card-title {
+  font-size: 20px;
+}
+
+.collapsible-header{
+    padding: 40px 10px 40px 10px;
+}
+
+.missionStatement{
+    padding: 40px;
+}
+
+/* media */
+@media screen and (max-width: 600px) {
+  nav .brand-logo {
+    font-size: 16px;
+  }
+}
