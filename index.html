@@ -8,24 +8,31 @@
     <title>Excelsior Counseling</title>
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="white">
-        <div class="container">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo blue-text">Excelsior Counseling</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i
-                        class="material-icons">menu</i></a>
+    <nav>
+            <div class="nav-wrapper indigo darken-3">
+                <div class="container">
+                <a href="index.html" class="brand-logo left"><img src="assets/image/exLogo.jpg" class="bannerLogo"
+                    alt="Logo"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="about.html">About</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li>
-                        <a class="waves-effect waves-light btn">Schedule Appointment</a>
+                        <a class="blue waves-effect waves-light btn sAppt">Schedule Appointment</a>
                     </li>
                 </ul>
             </div>
@@ -36,48 +43,64 @@
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li>
-            <a href="#" class="waves-effect waves-light btn">Schedule Appointment</a>
+            <a href="#" class="blue waves-effect waves-light btn sAppt">Schedule Appointment</a>
         </li>
-    </ul>
-    <!-- End Nav -->
-
-    <div class="parallax-container buildingImg">
-        <div class="parallax"><img src="http://placeimg.com/800/580/arch"></div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
-                <h4 class="missionStatement center-align">
-                    To help you become the best you that you can be!
-                    <h4>
+        </ul>
+        <!-- End Nav -->
+        
+        <div class="slider fullscreen">
+            <ul class="slides">
+                <li>
+                    <img src="assets/image/officeExteriorSunnyc.jpg">
+                    <div class="caption center-align">
+                        <div class="capWrap">
+                            <h3>Moving forward.</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/image/officeExteriorSign.jpg">
+                    <div class="caption left-align">
+                        <div class="capWrap">
+                            <h3>Helping you become the best that you can be.</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/image/officeWaitingRoom2.jpg">
+                    <div class="caption right-align">
+                        <div class="capWrap">
+                            <h3>Book an appointment today.</h3>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="capWrap">
+                <div class="row">
+                    <div class="col s12">
+                        <h3 class="white-text">Find us on...</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <a class="btn-floating btn-large waves-effect waves-light blue" style="margin-right:10px" target="_blank" href="https://www.facebook.com/excelsiorcounseling"><i class="fab fa-facebook"
+                                aria-hidden="true"></i></a>
+                        <a class="btn-floating btn-large waves-effect waves-light blue" target="_blank" href="https://www.instagram.com/excelcounseling"><i class="fab fa-instagram"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container">
-        <ul class="collapsible">
-            <li>
-                <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-            </li>
-            <li>
-                <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-            </li>
-            <li>
-                <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-            </li>
-        </ul>
-    </div>
-
+    </body>
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="./js/script.js"></script>
-</body>
+
 
 </html>
